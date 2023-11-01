@@ -1,0 +1,23 @@
+{
+  "name": "mindmap-bot",
+  "version": "1.0.0",
+  "description": "an advanced mind map bot made with discord.js",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "node lib/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegalithOfficial/Mindmap-bot.git"
+  },
+  "author": "MegalithOfficial and thebluedevelopper",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MegalithOfficial/Mindmap-bot/issues"
+  },
+  "homepage": "https://github.com/MegalithOfficial/Mindmap-bot#readme",
+  "dependencies": {
+    "@sapphire/fetch": "^2.4.1",
+    "canvas": "^2.11.2"
+  }
+}
