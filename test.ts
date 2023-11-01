@@ -255,15 +255,13 @@ export class MindMap {
 };
 
 const mindMap = new MindMap();
-
+/*
 const branchNodes: MindMapNode[] = [
   new MindMapNode(100, 200, 'Node A'),
   new MindMapNode(300, 200, 'Node B'),
-  // Add more nodes as needed
 ];
 console.log(branchNodes)
-
-// Add the branch to the mind map
+*/
 
 
 const config: Config = {
@@ -299,6 +297,6 @@ for (let i = 1; i <= 10; i++) {
 }
 
 mindMap.setConfig(config);
-mindMap.addBranch('Branch 1', branchNodes);
+//mindMap.addBranch('Branch 1', branchNodes);
 const imageBuffer: Buffer = mindMap.generateImage();
 fs.writeFileSync('mindmap.png', imageBuffer);
